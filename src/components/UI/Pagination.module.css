@@ -1,0 +1,36 @@
+.pagination {
+  text-align: center;
+}
+
+.pagination .button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #8a2b06;
+  border: 1px solid #8a2b06;
+  color: white;
+  padding: 0.25rem 2rem;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.pagination .button:hover,
+.pagination .button:active {
+  background-color: #641e03;
+  border-color: #641e03;
+}
+.pagination .disableButton {
+  font: inherit;
+  cursor: not-allowed;
+  background-color: #3d3937;
+  border: 1px solid #3d3937;
+  color: white;
+  padding: 0.25rem 2rem;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.pagination span {
+      display: inline-block;
+      margin: 0 1rem;
+      font-weight: bold;
+      color: #ad5502;
+      font-size: 1.25rem;
+}
